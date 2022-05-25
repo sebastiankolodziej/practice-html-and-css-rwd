@@ -15,11 +15,9 @@ body {
 .a, .b, .c {
     border: 3px solid transparent;
     min-height: 50px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     height: 50vh;
 }
 

@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    display: grid;
-    grid-template-areas: 
-        "p"
-        "t"
-        "v";
-   }
-
 .p, .t, .v {
     border: 3px solid transparent;
     min-height: 50px;
@@ -23,15 +15,12 @@ body {
 
 .p {
     border-color: #ffffba;
-    grid-area: p;
 }
 
 .t {
     border-color: #ffdfba;
-    grid-area: t;
 }
 
 .v {
     border-color: #baffc9;
-    grid-area: v;
 }
