@@ -1,33 +1,64 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    >
     <title>devmentor.pl - HTML & CSS: RWD - #03</title>
-    <link rel="stylesheet" href="./styles/global.css">
-    <link rel="stylesheet" href="./styles/reset.css">
-
+    <link
+        rel="stylesheet"
+        href="./styles/reset.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./styles/global.css"
+    >
 </head>
+
 <body>
-    
+
     <main class="t">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consectetur nisi soluta consequatur et explicabo assumenda voluptates. Quo facilis eum repellat minima fugit? Architecto dicta quam, veniam illum amet saepe vel autem quisquam, voluptatum ut perferendis voluptate, aspernatur atque debitis vero aperiam repellendus repudiandae vitae totam laudantium quod pariatur nostrum? Cupiditate ad itaque similique, quae placeat doloremque blanditiis repellat nemo a minima recusandae culpa ipsum soluta. Aspernatur necessitatibus, sunt possimus voluptate debitis quas. Culpa doloremque aliquam facere voluptatibus eligendi ea, rerum quae illum eius iusto laboriosam possimus saepe hic omnis quod corporis? Facere inventore nostrum voluptates, doloremque iure consequatur. Facilis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            consectetur nisi soluta consequatur et explicabo assumenda
+            voluptates. Quo facilis eum repellat minima fugit? Architecto dicta
+            quam, veniam illum amet saepe vel autem quisquam, voluptatum ut
+            perferendis voluptate, aspernatur atque debitis vero aperiam
+            repellendus repudiandae vitae totam laudantium quod pariatur
+            nostrum? Cupiditate ad itaque similique, quae placeat doloremque
+            blanditiis repellat nemo a minima recusandae culpa ipsum soluta.
+            Aspernatur necessitatibus, sunt possimus voluptate debitis quas.
+            Culpa doloremque aliquam facere voluptatibus eligendi ea, rerum quae
+            illum eius iusto laboriosam possimus saepe hic omnis quod corporis?
+            Facere inventore nostrum voluptates, doloremque iure consequatur.
+            Facilis.</p>
     </main>
     <header class="p">
-        <pictures>
-            <source
-            srcset="images/lion-1280.jpg"
-            media="(min-width: 1200px)"
-            >
-            <source
-            srcset="images/lion-600"
-            media="(min-width: 600px)"
-            >
-            <img src="images/lion-pow-1280.jpg" alt="">
-        </pictures>
-    </header>
-    <side class="v">V</side>
 
+        <picture>
+            <source media="(min-width:1200px)" srcset="./images/lion-1920.jpg">
+            <source media="(min-width:600px)" srcset="./images/lion-1200.jpg">
+            <img src="./images/lion-600.jpg" alt="lion" style="width:auto;">
+          </picture>
+    </header>
+    
+    <side class="v">
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/EQ3qVRRIj8w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+    </side>
 </body>
+
 </html>
