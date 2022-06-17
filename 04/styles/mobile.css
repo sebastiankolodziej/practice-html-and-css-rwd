@@ -18,8 +18,7 @@
      width: 30px;
      height: 19px;
      border-top: 5px solid black;
- 
- }
+  }
  
  .nav__list{
      display: none;
@@ -36,9 +35,9 @@
  .nav__item {
      text-decoration: none;
  }
+
 .nav__2item {
     text-decoration: none;
-
 }
 
 .nav__2items {
@@ -48,6 +47,7 @@
  .nav__items {
      padding: 5px 0px 5px 20px;
  }
+ 
  .nav__2list {
      padding-left: 25px;
  }
