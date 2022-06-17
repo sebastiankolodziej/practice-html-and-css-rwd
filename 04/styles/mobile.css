@@ -1,0 +1,57 @@
+.nav__hamburger {
+    display: block;
+    width: 40px;
+    height: 19px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    background: transparent;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+ 
+ .nav__hamburger::after {
+     display: block;
+     content: "";
+     position: relative;
+     top: 7px;
+     left: 5px;
+     width: 30px;
+     height: 19px;
+     border-top: 5px solid black;
+ 
+ }
+ 
+ .nav__list{
+     display: none;
+ }
+ 
+ .nav__toggler {
+     display: none;
+ }
+ 
+ .nav__toggler:checked + .nav__list {
+     display: block;
+ }
+ 
+ .nav__item {
+     text-decoration: none;
+ }
+.nav__2item {
+    text-decoration: none;
+
+}
+
+.nav__2items {
+    padding: 10px 0;
+}
+
+ .nav__items {
+     padding: 5px 0px 5px 20px;
+ }
+ .nav__2list {
+     padding-left: 25px;
+ }
+
+ .nav {
+     background-color: rgb(226, 226, 226);
+ }
