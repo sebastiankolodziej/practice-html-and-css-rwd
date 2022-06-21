@@ -1,0 +1,77 @@
+.green {
+    min-width: 90px;
+} 
+
+/* header */
+
+.blue--header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    height: 75px;
+    position: relative;
+}
+
+.logo {
+    height: 60px;
+    width: 100px;
+    background-color: orange;
+}
+
+.hamburger {
+    width: 40px;
+    height: 23px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.hamburger::after {
+    content: "";
+    width: 40px;
+    height: 5px;
+    display: block;
+    position: relative;
+    top: 9px;
+    background-color:black;
+}
+
+/* end of header */
+
+/* main and section */
+
+.orange--article {
+    margin-bottom: 5px;
+    height: 150px;
+}
+
+.orange--article1 {
+    height: 150px;
+}
+
+.orange--article2 {
+    margin-bottom: 5px;
+    height: 100px;
+}
+
+.orange--article3 {
+    height: 100px;
+}
+
+/* end of main and section*/
+
+/* footer */
+
+.blue--footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange--footer {
+    width: 150px;
+    height: 55px;
+}
