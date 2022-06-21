@@ -1,5 +1,6 @@
 .green {
     border: 2px solid green;
+
 }
 
 .blue {
@@ -8,6 +9,4 @@
 
 .orange {
     background-color:orange;
-    min-height: 50px;
-
 }

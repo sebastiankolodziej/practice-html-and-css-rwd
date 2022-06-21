@@ -1,0 +1,75 @@
+.green {
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    width: 1000px;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header */
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.hamburger {
+    position: static;
+    border: none;
+    width: 450px;
+    height: 80px;
+    background-color: orange;
+}
+
+.hamburger::after {
+    display: none;
+
+}
+
+/* end of header */
+
+/* main */
+
+.blue {
+    padding: 5px 0;
+}
+.orange--article {
+    width: 49.5%;
+    height: 255px;
+}
+
+.orange--article1 {
+    width: 49.5%;
+    height: 255px;
+}
+
+/* end of main */
+
+/* section */
+
+.blue--section {
+    justify-content: space-evenly;
+}
+
+.orange--article2, .orange--article3 {
+    width: 32%;
+    height: 205px;
+    margin: 5px 0;
+}
+
+/* end of section */
+
+/* footer */
+
+.blue--footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* end of footer */
